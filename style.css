@@ -519,3 +519,18 @@ nav a:hover {
     object-fit: cover;
     display: block;
 }
+
+
+.small{ 
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+} 
+.small p{
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #25201d;
+    margin-bottom: 12px;
+
+}
