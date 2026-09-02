@@ -377,15 +377,12 @@ nav a:hover {
 }
 
 
-/* =========================
-   SECTION HEADER
-========================= */
+/* SECTION HEADER */
 
 .menu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-bottom: 40px;
 }
 
@@ -394,13 +391,9 @@ nav a:hover {
 
 .small-title {
     color: #a95120;
-
     font-size: 12px;
-
     font-weight: bold;
-
     letter-spacing: 4px;
-
     margin-bottom: 15px;
 }
 
@@ -409,11 +402,8 @@ nav a:hover {
 
 .menu-title h2 {
     font-family: Georgia, serif;
-
     font-size: 32px;
-
     color: #25201d;
-
     margin-bottom: 12px;
 }
 
@@ -422,7 +412,6 @@ nav a:hover {
 
 .menu-description {
     font-size: 16px;
-
     color: #716b66;
 }
 
@@ -431,15 +420,41 @@ nav a:hover {
 
 .view-menu {
     text-decoration: none;
-
     color: #a94414;
-
     font-size: 15px;
 }
 
 
 .view-menu span {
     margin-left: 8px;
-
     font-size: 20px;
+}
+.food-grid {
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+
+    gap: 20px;
+}
+
+/* =========================
+   FOOD CARD
+========================= */
+
+.food-card {
+    background: white;
+    border: 1px solid #ddd7d0;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+.food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+.food-image {
+    height: 255px;
+    position: relative;
+    overflow: hidden;
 }
