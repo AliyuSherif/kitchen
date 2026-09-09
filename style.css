@@ -579,3 +579,130 @@ nav a:hover {
     color: white;
     border-color: #b8470d;
 }
+
+/*  EVENTS SECTION */
+
+.events-section {
+    margin: 60px auto;
+    width: 85%;
+    min-height: 440px;
+    padding: 48px;
+    background: linear-gradient( #271410,#160c09);
+    border-radius: 32px;
+    color: white;
+    overflow: hidden;
+}
+
+
+/* Content */
+
+.events-content {
+    max-width: 650px;
+}
+
+
+/* Small label */
+
+.events-label {
+    display: inline-block;
+    padding: 6px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #8b5c17;
+    border-radius: 20px;
+    color: #f2c94c;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* Heading */
+
+.events-content h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    line-height: 1.15;
+    margin: 0 0 16px;
+    max-width: 600px;
+}
+
+
+/* Description */
+
+.events-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e0d8d4;
+    max-width: 570px;
+    margin-bottom: 25px;
+}
+
+
+/* Event cards container */
+
+.event-list {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+
+/* Individual event card */
+
+.event-card {
+    width: 280px;
+    min-height: 80px;
+    padding: 14px 16px;
+    border: 1px solid #51403b;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+
+/* Date */
+
+.event-date {
+    margin: 0 0 8px;
+    color: #f4d15a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* Event name */
+
+.event-card h3 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Button */
+
+.events-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background: #c74608;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.events-button:hover {
+    background: #a93a06;
+
+    transform: translateY(-2px);
+}
+
+
+.events-button span {
+    font-size: 20px;
+}
