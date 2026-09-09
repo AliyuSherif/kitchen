@@ -706,3 +706,37 @@ nav a:hover {
 .events-button span {
     font-size: 20px;
 }
+/* FIND US SECTION */
+
+.find-us {
+    padding: 70px 8% 80px;
+    background: #fff;
+}
+
+
+/* HEADING */
+
+.find-us-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.find-us-heading p {
+    margin: 0 0 12px;
+    color: #c74608;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.find-us-heading h2 {
+    margin: 0 0 14px;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #17110e;
+}
+
+.find-us-heading span {
+    color: #716b66;
+    font-size: 16px;
+}
