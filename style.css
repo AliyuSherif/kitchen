@@ -740,3 +740,19 @@ nav a:hover {
     color: #716b66;
     font-size: 16px;
 }
+/* LOCATIONS */
+
+.locations {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Main card */
+
+.location-card {
+    overflow: hidden;
+    background: white;
+    border: 1px solid #ddd8d3;
+    border-radius: 24px;
+}
