@@ -1008,3 +1008,225 @@ nav a:hover {
 .instagram-card p {
   color: #666;
 }
+
+/* RESTAURANT FOOTER */
+
+.restaurant-footer {
+  background: #ffffff;
+  color: #333;
+  font-family: "Mulish", sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+/* MAIN FOOTER CONTAINER */
+
+.footer-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 55px 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+/* ABOUT / LOGO SECTION */
+
+.footer-about {
+  width: 250px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+/* Circular logo */
+
+.logo-circle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c94a0b;
+  font-size: 20px;
+}
+
+.footer-logo .logo-circle img {
+  width: 45px;
+  height: 50px;
+}
+
+/* Restaurant name */
+
+.footer-logo h2 {
+  margin: 0;
+
+  font-family: Georgia, serif;
+
+  font-size: 25px;
+
+  color: #111;
+}
+
+/* Bistro & Cafe */
+
+.footer-logo span {
+  display: block;
+  margin-top: 3px;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #c94a0b;
+}
+
+/* Description */
+
+.footer-about > p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
+/* SOCIAL ICONS */
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.footer-socials a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #c94a0b;
+  border-color: #c94a0b;
+  transform: translateY(-3px);
+}
+
+/* FOOTER COLUMNS */
+
+.footer-column {
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 150px;
+}
+
+.footer-column h3 {
+  font-family: "Mulish", sans-serif;
+
+  font-size: 14px;
+
+  letter-spacing: 1px;
+
+  color: #111;
+
+  margin: 5px 0 22px;
+}
+
+/* Footer links */
+
+.footer-column > a {
+  color: #666;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  margin-bottom: 17px;
+
+  transition: 0.3s;
+}
+
+.footer-column > a:hover {
+  color: #c94a0b;
+
+  padding-left: 3px;
+}
+
+/* =========================================
+   LOCATION / CONTACT INFORMATION
+========================================= */
+
+.footer-info {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 12px;
+
+  margin-bottom: 18px;
+}
+
+.footer-info i {
+  color: #c94a0b;
+
+  font-size: 16px;
+
+  margin-top: 3px;
+
+  min-width: 15px;
+}
+
+.footer-info p {
+  margin: 0;
+
+  font-size: 14px;
+
+  line-height: 1.45;
+
+  color: #666;
+}
+
+.footer-info strong {
+  color: #222;
+
+  font-weight: 500;
+}
+
+/* =========================================
+   BOTTOM FOOTER
+========================================= */
+
+.footer-bottom {
+  border-top: 1px solid #e1e1e1;
+
+  min-height: 55px;
+
+  padding: 15px 8%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+
+  font-size: 12px;
+
+  color: #666;
+}
