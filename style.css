@@ -1125,21 +1125,15 @@ nav a:hover {
 
 .footer-column {
   display: flex;
-
   flex-direction: column;
-
   min-width: 150px;
 }
 
 .footer-column h3 {
   font-family: "Mulish", sans-serif;
-
   font-size: 14px;
-
   letter-spacing: 1px;
-
   color: #111;
-
   margin: 5px 0 22px;
 }
 
@@ -1147,86 +1141,59 @@ nav a:hover {
 
 .footer-column > a {
   color: #666;
-
   text-decoration: none;
-
   font-size: 14px;
-
   margin-bottom: 17px;
-
   transition: 0.3s;
 }
 
 .footer-column > a:hover {
   color: #c94a0b;
-
   padding-left: 3px;
 }
 
-/* =========================================
-   LOCATION / CONTACT INFORMATION
-========================================= */
+/* LOCATION / CONTACT INFORMATION */
 
 .footer-info {
   display: flex;
-
   align-items: flex-start;
-
   gap: 12px;
-
   margin-bottom: 18px;
 }
 
 .footer-info i {
   color: #c94a0b;
-
   font-size: 16px;
-
   margin-top: 3px;
-
   min-width: 15px;
 }
 
 .footer-info p {
   margin: 0;
-
   font-size: 14px;
-
   line-height: 1.45;
-
   color: #666;
 }
 
 .footer-info strong {
   color: #222;
-
   font-weight: 500;
 }
 
-/* =========================================
-   BOTTOM FOOTER
-========================================= */
+/* BOTTOM FOOTER */
 
 .footer-bottom {
   border-top: 1px solid #e1e1e1;
-
   min-height: 55px;
-
   padding: 15px 8%;
-
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 20px;
 }
 
 .footer-bottom p {
   margin: 0;
-
   font-size: 12px;
-
   color: #666;
 }
