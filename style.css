@@ -1197,3 +1197,221 @@ nav a:hover {
   font-size: 12px;
   color: #666;
 }
+
+/* ORDER ONLINE SECTION */
+
+.order-section {
+  max-width: 100%;
+  background: #fff;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.order-hero {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  background:
+    linear-gradient(rgba(61, 57, 57, 0.65), rgba(43, 38, 38, 0.65)),
+    url(images/order.webp) center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 50px 12%;
+  /* background-size: 15px 15px; */
+}
+
+/* Dark overlay over image */
+
+/* .order-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62); 
+} */
+
+/* Text inside hero */
+
+.order-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 850px;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Small OUR MENU label */
+
+.order-label {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 7px 18px;
+
+  border: 1px solid #c87919;
+
+  border-radius: 30px;
+
+  background: rgba(50, 35, 10, 0.7);
+
+  color: #f2c94c;
+
+  font-family: Mulish, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+/* Main heading */
+
+.order-content h1 {
+  margin-top: 22px;
+  margin-bottom: 18px;
+
+  font-family: "Noto Serif", serif;
+
+  font-size: 42px;
+
+  font-weight: 700;
+
+  color: white;
+}
+
+/* Description */
+
+.order-content p {
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  color: white;
+
+  font-family: Mulish, sans-serif;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+}
+
+/* SEARCH + CATEGORY AREA */
+
+.menu-navigation {
+  width: 100%;
+  padding: 55px 8% 20px;
+  background: white;
+}
+
+/* SEARCH BOX */
+
+.search-box {
+  width: 450px;
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 18px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: white;
+}
+
+.search-box i {
+  color: #777;
+  font-size: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-box input::placeholder {
+  color: #777;
+}
+
+/* CATEGORY CONTAINER */
+
+.categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar */
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+/* =========================================
+   CATEGORY BUTTON
+========================================= */
+
+.category {
+  flex-shrink: 0;
+
+  padding: 10px 20px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 25px;
+
+  background: white;
+
+  color: #666;
+
+  font-family: Mulish, sans-serif;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* Hover */
+
+.category:hover {
+  border-color: #c7460b;
+
+  color: #c7460b;
+}
+
+/* Active category */
+
+.category.active {
+  background: #c7460b;
+
+  border-color: #c7460b;
+
+  color: white;
+}
