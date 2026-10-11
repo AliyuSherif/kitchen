@@ -1855,3 +1855,136 @@ nav a:hover {
   background: #ffffff;
   color: #211c19;
 }
+
+.servicess {
+  width: 100%;
+  padding: 16px 7.8% 60px;
+}
+
+/* SECTION HEADING */
+
+.section-headings {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-label {
+  display: inline-block;
+  color: #bd3909;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.section-headings h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 29px;
+  line-height: 1.35;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-headings p {
+  font-size: 16px;
+  color: #706962;
+}
+
+/* =========================
+   FLEXBOX SERVICE CARDS
+========================= */
+
+.servicess-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+/* EACH CARD */
+
+.services-card {
+  flex: 1 1 calc((100% - 32px) / 3);
+  min-width: 0;
+  min-height: 266px;
+  padding: 24px;
+  border: 1px solid #e4ded9;
+  border-radius: 24px;
+  background: #fdfcfc;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* CARD HOVER */
+
+.services-card:hover {
+  transform: translateY(-4px);
+  border-color: #edc6b8;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* ICON BOX */
+
+.services-icon {
+  width: 48px;
+  height: 48px;
+  background: #f6e0d8;
+  color: #c43c0a;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 21px;
+  margin-bottom: 16px;
+}
+
+/* CARD TITLE */
+
+.services-card h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 19px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+/* CARD DESCRIPTION */
+
+.services-card p {
+  font-size: 14px;
+  color: #6b625c;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+/* CARD BUTTON */
+
+.services-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid #e3ddd8;
+  border-radius: 30px;
+  font-size: 13px;
+  color: #171411;
+  text-decoration: none;
+  background: #ffffff;
+  margin-top: auto;
+  transition: all 0.3s ease;
+}
+
+.services-btn:hover {
+  background: #b93808;
+  color: #ffffff;
+  border-color: #b93808;
+}
