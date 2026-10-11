@@ -123,7 +123,7 @@ nav a:hover {
 
 /* HERO LEFT */
 
-.hero-content {
+.hero-contents {
   width: 48%;
 }
 
@@ -151,7 +151,7 @@ nav a:hover {
 
 /* Location */
 
-.location {
+.locations {
   color: #9b580d;
   font-size: 12px;
   font-weight: bold;
@@ -161,7 +161,7 @@ nav a:hover {
 
 /* Main heading */
 
-.hero-content h1 {
+.hero-contents h1 {
   font-family: Mulish, Georgia, serif;
   font-size: 58px;
   /* color: #111; */
@@ -169,8 +169,12 @@ nav a:hover {
   font-weight: bold;
   margin-bottom: 25px;
 }
+.hero-contents .locations {
+  font-family: Mulish, sans-serif;
+  color: #c5480b;
+}
 
-.hero-content h1 span {
+.hero-contents h1 span {
   color: #c5480b;
 }
 
@@ -220,7 +224,7 @@ nav a:hover {
 }
 
 .find-us {
-  background: white;
+  background: rgb(150, 44, 44);
   color: #333;
   border: 1px solid #ddd;
   border-radius: 30px;
@@ -236,7 +240,7 @@ nav a:hover {
   align-items: center;
   gap: 8px;
   font-size: 13px;
-  color: #625d58;
+  color: #3a2c1d;
 }
 
 .starss {
@@ -246,7 +250,7 @@ nav a:hover {
 }
 
 .ratings strong {
-  color: #222;
+  color: #2b1818;
 }
 
 .divider {
@@ -1601,7 +1605,7 @@ nav a:hover {
    FOOD CARD
 ================================= */
 
-.food-card {
+.food-cards {
   /*
        Six cards across on large
        screens.
