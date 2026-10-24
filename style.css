@@ -1988,3 +1988,115 @@ nav a:hover {
   color: #ffffff;
   border-color: #b93808;
 }
+
+/* EVENT SECTION */
+.events-section {
+    width: 100%;
+    padding: 120px 7.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MAIN EVENT CONTAINER */
+.events-containers {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 290px;
+
+    padding: 50px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        110deg,
+        #321a12 0%,
+        #402114 50%,
+        #753512 100%
+    );
+
+    border-radius: 32px;
+}
+
+
+/* HEADING */
+.events-containers h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+
+/* DESCRIPTION */
+.events-containers p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    color: #f5eee9;
+    margin-bottom: 27px;
+}
+
+
+/* BUTTON CONTAINER */
+.events-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+/* BOTH BUTTONS */
+.events-btn {
+    min-height: 52px;
+    padding: 14px 32px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: 600;
+
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition: all 0.3s ease;
+}
+
+
+/* WHATSAPP BUTTON */
+.whatsapp-btn {
+    background: #b93808;
+    color: #ffffff;
+    border: 1px solid #b93808;
+}
+
+.whatsapp-btn:hover {
+    background: #d34812;
+    border-color: #d34812;
+    transform: translateY(-2px);
+}
+
+
+/* CALL BUTTON */
+.call-btn {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.call-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
+}
