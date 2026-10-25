@@ -2071,7 +2071,7 @@ nav a:hover {
   /* Replace this URL with your own balloon image */
   background-image:
     linear-gradient(rgba(15, 12, 12, 0.7), rgba(15, 12, 12, 0.7)),
-    url("image/balloons.jpg");
+    url("images/event.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
