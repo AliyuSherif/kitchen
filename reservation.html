@@ -51,5 +51,253 @@
 
     </header>
 
+    <main>
+
+        <!-- PAGE INTRODUCTION -->
+        <section class="reservation-intro">
+
+            <span class="sections-label">RESERVATIONS</span>
+
+            <h1>Book your table</h1>
+
+            <p>
+                Planning a night out, a celebration, or a big group?
+                Reserve below and we'll confirm by phone — or just
+                call us, we're happy to help.
+            </p>
+
+        </section>
+
+
+        <!-- RESERVATION CONTENT -->
+        <section class="reservation-section">
+
+            <div class="reservation-container">
+
+                <!-- LEFT INFORMATION CARD -->
+                <div class="reservation-info">
+
+                    <h2>Good to know</h2>
+
+                    <div class="info-item">
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>Mon - Sun · 10:00 - 22:00</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-users"></i>
+
+                        <p>
+                            Parties of 8 or more? Give us a call
+                            and we'll arrange it.
+                        </p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+2548167022224">
+                            +254 816 702 2224
+                        </a>
+                    </div>
+
+
+                    <div class="info-divider"></div>
+
+
+                    <h3 class="branches-heading">OUR BRANCHES</h3>
+
+                    <div class="branch-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h4>Kitchen Lagos</h4>
+                            <p>
+                                Kanjata Road, Lagos, Nairobi
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h4>Kitchen Syokimau</h4>
+                            <p>
+                                Syokimau, Machakos County
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT RESERVATION FORM -->
+                <div class="reservation-form-card">
+
+                    <h2>Book a table</h2>
+
+                    <p class="form-description">
+                        Tell us when and we'll keep a table ready.
+                    </p>
+
+                    <form action="#" method="post">
+
+                        <!-- FULL NAME -->
+                        <div class="form-group">
+                            <label for="full-name">Full name</label>
+
+                            <input
+                                type="text"
+                                id="full-name"
+                                name="full_name"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- PHONE -->
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="e.g. 0712 345678"
+                                autocomplete="tel"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+                            <label for="email">Email (optional)</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                            >
+                        </div>
+
+
+                        <!-- DATE AND TIME -->
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="date">Date</label>
+
+                                <input
+                                    type="date"
+                                    id="date"
+                                    name="date"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Time</label>
+
+                                <select id="time" name="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                    <option value="22:00">10:00 PM</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <!-- NUMBER OF GUESTS -->
+                        <div class="form-group">
+                            <label for="guests">Number of guests</label>
+
+                            <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 guest</option>
+                                <option value="2">2 guests</option>
+                                <option value="3">3 guests</option>
+                                <option value="4">4 guests</option>
+                                <option value="5">5 guests</option>
+                                <option value="6">6 guests</option>
+                                <option value="7">7 guests</option>
+                                <option value="8+">8 or more guests</option>
+                            </select>
+                        </div>
+
+
+                        <!-- BRANCH -->
+                        <div class="form-group">
+                            <label for="branch">Preferred branch</label>
+
+                            <select id="branch" name="branch" required>
+                                <option value="">Choose a branch</option>
+                                <option value="Lavington">
+                                    Kitchenette Lavington
+                                </option>
+                                <option value="Syokimau">
+                                    Kitchenette Syokimau
+                                </option>
+                            </select>
+                        </div>
+
+
+                        <!-- SPECIAL REQUEST -->
+                        <div class="form-group">
+                            <label for="message">
+                                Special requests (optional)
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="3"
+                                placeholder="Birthday, anniversary, or any special request..."
+                            ></textarea>
+                        </div>
+
+
+                        <!-- SUBMIT -->
+                        <button type="submit" class="submit-btn">
+                            Request a reservation
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                        <p class="form-note">
+                            Your reservation is a request and is not
+                            confirmed until the restaurant contacts you.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
 </body>
 </html>
