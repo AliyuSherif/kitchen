@@ -2053,3 +2053,172 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: #ffffff;
 }
+
+/* =====================================
+   3. EVENTS HERO SECTION
+===================================== */
+
+.events-side {
+  width: 100%;
+  min-height: 382px;
+  padding: 55px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+
+  /* Replace this URL with your own balloon image */
+  background-image:
+    linear-gradient(rgba(15, 12, 12, 0.7), rgba(15, 12, 12, 0.7)),
+    url("image/balloons.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-event {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.event-label {
+  display: inline-block;
+  padding: 7px 16px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 30px;
+  background: rgba(40, 29, 20, 0.55);
+  color: #f3d76e;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.content-event h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(30px, 4vw, 38px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.content-event p {
+  max-width: 580px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f4f0ed;
+}
+
+/* =====================================
+   4. EVENTS CARDS SECTION
+===================================== */
+
+.section-event {
+  width: 100%;
+  padding: 55px 20px 70px;
+  background: #ffffff;
+}
+
+.container-events {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.event-card {
+  flex: 1 1 320px;
+  min-width: 0;
+  min-height: 330px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #e7ded7;
+  border-radius: 24px;
+  color: #ffffff;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* CARD BACKGROUNDS */
+
+.event-one {
+  background: linear-gradient(135deg, #4c381b, #765019);
+}
+
+.event-two {
+  background: linear-gradient(135deg, #263a2b, #286044);
+}
+
+/* CARD ICON */
+
+.event-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 22px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  color: #f5dfb1;
+  font-size: 23px;
+}
+
+.event-category {
+  margin-bottom: 10px;
+  color: #f0d69c;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.event-card h2 {
+  margin-bottom: 14px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.event-card p {
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* CARD BUTTON */
+
+.event-btn {
+  margin-top: auto;
+  padding: 12px 17px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.event-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
