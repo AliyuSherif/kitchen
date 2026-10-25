@@ -2222,3 +2222,277 @@ nav a:hover {
 .event-btn:hover {
   background: rgba(255, 255, 255, 0.16);
 }
+/*RESERVATION INTRODUCTION
+========================================= */
+
+.reservation-intro {
+  width: 100%;
+  padding: 40px 20px 38px;
+  text-align: center;
+}
+
+.sections-label {
+  display: block;
+  margin-bottom: 12px;
+  color: #c33b0b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+.reservation-intro h1 {
+  margin-bottom: 12px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(30px, 4vw, 36px);
+  font-weight: 700;
+  line-height: 1.3;
+}
+.reservation-intro > p {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #756b64;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* =========================================
+   MAIN RESERVATION LAYOUT
+========================================= */
+
+.reservation-section {
+  width: 100%;
+  padding: 0 20px 70px;
+}
+
+.reservation-container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* =========================================
+  LEFT INFORMATION CARD
+========================================= */
+
+.reservation-info {
+  flex: 1 1 60%;
+  min-width: 0;
+  min-height: 360px;
+  padding: 25px 24px;
+  background: #fdfcfc;
+  border: 1px solid #e5ddd7;
+  border-radius: 17px;
+}
+
+.reservation-info h2,
+.reservation-form-card h2 {
+  margin-bottom: 17px;
+  font-family: "Playfair Display", serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.info-item i {
+  width: 14px;
+  margin-top: 4px;
+  color: #c33b0b;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.info-item p,
+.info-item a {
+  color: #756b64;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.info-item a:hover {
+  color: #c33b0b;
+}
+
+/* DIVIDER */
+
+.info-divider {
+  width: 100%;
+  height: 1px;
+  margin: 34px 0 22px;
+  background: #e5ddd7;
+}
+
+/* BRANCHES */
+
+.branches-heading {
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.branch-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  margin-bottom: 13px;
+}
+
+.branch-item > i {
+  margin-top: 4px;
+  color: #c33b0b;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.branch-item h4 {
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.branch-item p {
+  color: #756b64;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* =========================================
+   6. RESERVATION FORM CARD
+========================================= */
+
+.reservation-form-card {
+  flex: 0 1 416px;
+  min-width: 0;
+  padding: 25px 24px;
+
+  background: #fdfcfc;
+  border: 1px solid #e5ddd7;
+  border-radius: 17px;
+}
+
+.reservation-form-card h2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.form-description {
+  margin-bottom: 18px;
+  color: #756b64;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* FORM GROUPS */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin-bottom: 13px;
+}
+
+.form-group label {
+  margin-bottom: 7px;
+  color: #756b64;
+  font-size: 13px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 15px;
+
+  border: 1px solid #e2d9d2;
+  border-radius: 12px;
+  outline: none;
+
+  background: #ffffff;
+  color: #28221e;
+  font-size: 14px;
+
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #c33b0b;
+  box-shadow: 0 0 0 3px rgba(195, 59, 11, 0.09);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #8b817a;
+}
+
+.form-group textarea {
+  min-height: 95px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+/* DATE AND TIME */
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 0;
+}
+
+/* SUBMIT BUTTON */
+
+.submit-btn {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 5px;
+  padding: 13px 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  border: none;
+  border-radius: 30px;
+  background: #b93808;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #8f2b06;
+  transform: translateY(-2px);
+}
+
+.form-note {
+  margin-top: 13px;
+  color: #81766e;
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+}
