@@ -2367,14 +2367,13 @@ nav a:hover {
 }
 
 /* =========================================
-   6. RESERVATION FORM CARD
+   RESERVATION FORM CARD
 ========================================= */
 
 .reservation-form-card {
   flex: 0 1 416px;
   min-width: 0;
   padding: 25px 24px;
-
   background: #fdfcfc;
   border: 1px solid #e5ddd7;
   border-radius: 17px;
@@ -2413,15 +2412,12 @@ nav a:hover {
   width: 100%;
   min-height: 48px;
   padding: 12px 15px;
-
   border: 1px solid #e2d9d2;
   border-radius: 12px;
   outline: none;
-
   background: #ffffff;
   color: #28221e;
   font-size: 14px;
-
   transition:
     border-color 0.3s ease,
     box-shadow 0.3s ease;
@@ -2464,17 +2460,14 @@ nav a:hover {
   min-height: 48px;
   margin-top: 5px;
   padding: 13px 16px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-
   border: none;
   border-radius: 30px;
   background: #b93808;
   color: #ffffff;
-
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
