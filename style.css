@@ -2489,3 +2489,126 @@ nav a:hover {
   line-height: 1.6;
   text-align: center;
 }
+/* OUR STORY HERO SECTION */
+
+.story-hero {
+  width: 100%;
+  min-height: 520px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.65)),
+    url("images/resturant.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/* DARK OVERLAY */
+
+.story-overlay {
+  width: 100%;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+}
+
+/* CONTENT */
+
+.storys-content {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* BADGE */
+
+.story-badge {
+  display: inline-block;
+  padding: 7px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: #f5d76e;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* HEADING */
+
+.storys-content h1 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.storys-content h1 span {
+  color: #c43d08;
+}
+
+/* DESCRIPTION */
+
+.storys-content p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fdfafa;
+  max-width: 580px;
+  margin-bottom: 30px;
+}
+
+/* BUTTON CONTAINER */
+
+.story-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* GENERAL BUTTON */
+
+.story-btn {
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+/* PRIMARY BUTTON */
+
+.primary-btn {
+  background: #c43d08;
+  color: white;
+  border: 1px solid #c43d08;
+}
+
+.primary-btn:hover {
+  background: #a83205;
+  transform: translateY(-3px);
+}
+
+/* SECONDARY BUTTON */
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #222;
+  transform: translateY(-3px);
+}
